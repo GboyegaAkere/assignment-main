@@ -54,7 +54,7 @@ const experiences = [
 
 export function Hero() {
   return (
-    <section className="bg-black text-white py-10 sm:py-16 mt-10">
+    <section className="bg-black text-white py-10 sm:py-5 mt-10 sm:mt-17">
       <motion.div
         className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8"
         initial={{ opacity: 0, y: 40 }}
