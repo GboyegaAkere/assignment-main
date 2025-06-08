@@ -75,8 +75,8 @@ export function Hero() {
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
               >
-                <div className="text-5xl sm:text-7xl font-bold leading-tight">
-                  <p>SAM</p>
+                <div className="text-7xl sm:text-7xl font-bold">
+                  <p className="text-start">SAM</p>
                   <p>CREATES</p>
                 </div>
               </motion.div>
