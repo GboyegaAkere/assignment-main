@@ -92,7 +92,7 @@ export function Hero() {
                 <img
                   src={ceo}
                   alt="CEO"
-                  className="w-full h-48 sm:h-auto object-cover rounded-md max-w-xs"
+                  className="w-full  h-60 sm:h-60 object-cover rounded-md max-w-xs"
                 />
               </motion.div>
             </div>
@@ -131,7 +131,7 @@ export function Hero() {
                 viewport={{ once: true }}
               >
                 {/* Top Row: Left Text + Right Icon */}
-                <div className="w-full flex justify-between items-start">
+                <div className="w-full flex justify-between items-start h-60">
                   <p className="text-gray-400 text-sm">Wanna get in touch?</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
