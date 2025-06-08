@@ -1,4 +1,4 @@
-import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaGithub, FaFacebook } from 'react-icons/fa';
 
 export function Footer() {
   return (
@@ -48,12 +48,12 @@ export function Footer() {
               <FaGithub className="text-gray-400 md:text-white md:hover:text-gray-400" size={35} />
             </a>
             <a
-              href="https://github.com"
+              href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
               className="w-[72px] h-[82px] bg-black border border-gray-800 rounded-md flex items-center justify-center transition-colors"
             >
-              <FaGithub className="text-gray-400 md:text-white md:hover:text-gray-400" size={35} />
+              <FaFacebook className="text-blue-600 md:text-white md:hover:text-blue-600" size={35} />
             </a>
           </div>
         </div>

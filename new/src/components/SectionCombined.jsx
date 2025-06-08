@@ -114,7 +114,7 @@ const SectionCombined = () => {
             className="bg-neutral-900 border border-neutral-800 rounded-xl p-4 shadow-md flex items-center gap-2"
           >
             <span className="w-3 h-3 rounded-full bg-green-500" />
-            <p className="text-xl sm:text-2xl font-semibold text-center text-white">
+            <p className="text-xl sm:text-1xl font-semibold text-center text-white">
               AVAILABLE FOR FREELANCE
             </p>
           </motion.div>
@@ -174,9 +174,12 @@ const SectionCombined = () => {
           <div className="bg-neutral-900 rounded-xl p-6 shadow-md flex-grow overflow-auto">
             <h2 className="text-3xl font-bold text-white mb-4">MOTIVATION</h2>
             <p className="text-sm text-neutral-300 leading-relaxed">
-              Driven by a passion for innovative design and a commitment to
-              delivering high-quality work, I find motivation in the challenges
-              each project presents...
+             <p className="text-sm text-neutral-300 leading-relaxed">
+              Driven by a passion for innovative design and a commitment to delivering high-quality work, I find motivation in the challenges each project presents.
+              Every pixel, every interaction, every piece of code tells a story, and I am fueled by the opportunity to craft experiences that not only captivate but also solve real-world problems.
+              For me, it's about pushing boundaries, embracing creativity, and continuously evolving to stay ahead in an ever-changing digital landscape.
+              Each project is a new canvas, and my goal is always the same—to inspire, engage, and make a lasting impact.
+            </p>
             </p>
             <p className="mt-4 italic text-neutral-500">Wayne Kirkwood</p>
           </div>
