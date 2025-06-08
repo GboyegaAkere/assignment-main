@@ -16,6 +16,7 @@ const experiences = [
       "Worked closely on Asset Development.",
     ],
   },
+ 
   {
     title: "Creative Design Intern",
     company: "Humane Space, Mumbai",
@@ -26,6 +27,18 @@ const experiences = [
       "Developed impactful presentation decks for XR meetups to showcase innovative ideas.",
     ],
   },
+  {
+    title: "AR Developer & 3D Artist Intern",
+    company: "Arexa, Mumbai",
+    date: "01 May, 2024 – 31st July, 2024",
+    points: [
+      "Development of the AR, VR, MR & CGI Projects.",
+      "Development of the 3D Models & XR experiences for clients.",
+      "Collaboratively worked with the team.",
+      "Worked closely on Asset Development.",
+    ],
+  },
+  
   {
     title: "Creative Design Intern",
     company: "Treblel, Mumbai",
