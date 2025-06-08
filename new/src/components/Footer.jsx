@@ -29,7 +29,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="w-[72px] h-[82px] bg-black border border-gray-800 rounded-md flex items-center justify-center transition-colors"
             >
-              <FaLinkedin className="text-blue-500 md:text-white md:hover:text-blue-500" size={35} />
+              <FaLinkedin className="text-blue-500 md:text-white md:hover:text-blue-500" size={45} />
             </a>
             <a
               href="https://instagram.com"
@@ -37,7 +37,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="w-[72px] h-[82px] bg-black border border-gray-800 rounded-md flex items-center justify-center transition-colors"
             >
-              <FaInstagram className="text-pink-500 md:text-white md:hover:text-pink-500" size={35} />
+              <FaInstagram className="text-pink-500 md:text-white md:hover:text-pink-500" size={45} />
             </a>
             <a
               href="https://github.com"
@@ -45,7 +45,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="w-[72px] h-[82px] bg-black border border-gray-800 rounded-md flex items-center justify-center transition-colors"
             >
-              <FaGithub className="text-gray-400 md:text-white md:hover:text-gray-400" size={35} />
+              <FaGithub className="text-gray-400 md:text-white md:hover:text-gray-400" size={45} />
             </a>
             <a
               href="https://facebook.com"
@@ -53,7 +53,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="w-[72px] h-[82px] bg-black border border-gray-800 rounded-md flex items-center justify-center transition-colors"
             >
-              <FaFacebook className="text-blue-600 md:text-white md:hover:text-blue-600" size={35} />
+              <FaFacebook className="text-blue-600 md:text-white md:hover:text-blue-600" size={45} />
             </a>
           </div>
         </div>
