@@ -83,7 +83,7 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                <div className="w-full flex justify-between items-start h-60">
+                <div className="w-full flex justify-between items-start h-40 sm:h-60">
                   <p className="text-gray-400 text-sm">Wanna get in touch?</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
