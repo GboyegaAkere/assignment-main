@@ -6,10 +6,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto w-full px-6 md:px-10">
         <div className="flex flex-col-reverse md:flex-row justify-between items-center md:items-stretch gap-4">
 
-          {/* Copyright Card */}
+   
           <div className="border border-gray-800 rounded-md py-6 px-4 h-[82px] flex items-center justify-center md:justify-start flex-1 w-full">
             <p className="text-gray-400 text-center md:text-left text-sm">
-              © 2025, All Rights Reserved. Designed & Built by{' '}
+              © 2025, All Rights Reserved. Built by{' '}
               <a
                 href="https://framerxplore.com"
                 className="text-blue-400 hover:underline"
@@ -21,7 +21,7 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Social Icon Cards (hover color permanently on mobile) */}
+      
           <div className="w-full md:w-auto flex justify-center md:justify-end flex-wrap gap-2">
             <a
               href="https://linkedin.com"

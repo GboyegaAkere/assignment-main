@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const ContactCard = () => {
   return (
     <div className="flex flex-col gap-4">
-      {/* Availability Badge */}
+   
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -16,7 +16,7 @@ const ContactCard = () => {
         </p>
       </motion.div>
 
-      {/* Contact Form */}
+   
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -25,7 +25,7 @@ const ContactCard = () => {
       >
         <h2 className="text-3xl font-semibold mb-4">CONTACT</h2>
         <form className="space-y-4">
-          {/* Name */}
+         
           <div>
             <label htmlFor="name" className="block text-sm text-neutral-400 mb-1">
               Name
@@ -39,7 +39,6 @@ const ContactCard = () => {
             />
           </div>
 
-          {/* Email */}
           <div>
             <label htmlFor="email" className="block text-sm text-neutral-400 mb-1">
               Email
@@ -53,7 +52,6 @@ const ContactCard = () => {
             />
           </div>
 
-          {/* Message */}
           <div>
             <label htmlFor="message" className="block text-sm text-neutral-400 mb-1">
               Message
@@ -66,7 +64,7 @@ const ContactCard = () => {
             />
           </div>
 
-          {/* Budget */}
+    
           <div>
             <label htmlFor="budget" className="block text-sm text-neutral-400 mb-1">
               Project Budget <span className="text-neutral-500">(optional)</span>
@@ -82,7 +80,7 @@ const ContactCard = () => {
             </select>
           </div>
 
-          {/* Submit Button */}
+       
           <button
             type="submit"
             className="w-full bg-white text-black font-semibold py-2 rounded-md hover:bg-neutral-200 transition"

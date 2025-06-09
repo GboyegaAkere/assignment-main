@@ -44,7 +44,6 @@ const FeaturedWork = () => {
             )}
           </div>
 
-          {/* CENTER COLUMN (main card) */}
           {featuredProjects[1] && (
             <Link to={`/projects/${featuredProjects[1].slug}`}>
               <motion.div
@@ -68,7 +67,7 @@ const FeaturedWork = () => {
             </Link>
           )}
 
-          {/* RIGHT COLUMN (stacked two cards with height 180px each) */}
+       
           <div className="flex flex-col gap-4">
             {featuredProjects.slice(2, 4).map((project, index) => (
               <Link to={`/projects/${project.slug}`} key={index}>

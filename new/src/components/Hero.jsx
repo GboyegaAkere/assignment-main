@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ceo from "../images/ceo.png";
-import Experience from "./Experience"; // Import the new Experience component
+import Experience from "./Experience";
 
 export function Hero() {
   return (
@@ -16,11 +16,11 @@ export function Hero() {
         viewport={{ once: true }}
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-          {/* LEFT SIDE */}
+      
           <div className="md:col-span-2 grid grid-cols-1 gap-6">
-            {/* Top Row: SAM CREATES and Image */}
+           
             <div className="flex flex-col sm:flex-row gap-6">
-              {/* SAM CREATES */}
+             
               <motion.div
                 className="border border-gray-800 rounded-md p-6 sm:p-10 flex items-center justify-center text-center sm:text-left flex-1"
                 initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export function Hero() {
               </motion.div>
             </div>
 
-            {/* Bottom Row: About and Email */}
+        
             <div className="flex flex-col sm:flex-row gap-6">
               {/* About */}
               <motion.div
@@ -63,15 +63,17 @@ export function Hero() {
                 <p>
                   I'm Samkeet Mehta, a <strong>3D artist</strong>,{" "}
                   <strong>AR creator</strong>, and{" "}
-                  <strong>graphic designer</strong> with a background in computer
-                  engineering. I specialize in <strong>brand identity</strong>,{" "}
+                  <strong>graphic designer</strong> with a background in
+                  computer engineering. I specialize in{" "}
+                  <strong>brand identity</strong>,{" "}
                   <strong>CGI marketing</strong>, and{" "}
                   <strong>augmented reality</strong>, with experience in social
-                  media management, packaging design, and product animation. I've
-                  worked on rebranding projects, XR presentations, and AR
+                  media management, packaging design, and product animation.
+                  I've worked on rebranding projects, XR presentations, and AR
                   healthcare concepts using Unity. Passionate about blending
-                  creativity with technology, I strive to craft immersive digital
-                  experiences that push the boundaries of design and storytelling.
+                  creativity with technology, I strive to craft immersive
+                  digital experiences that push the boundaries of design and
+                  storytelling.
                 </p>
               </motion.div>
 
@@ -111,7 +113,7 @@ export function Hero() {
           </div>
 
           {/* Experience Component */}
-         <Experience/>
+          <Experience />
         </div>
       </motion.div>
     </section>
