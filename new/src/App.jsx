@@ -5,7 +5,8 @@ import { Footer } from './components/Footer'
 import Home from './pages/Home'
 import Work from './pages/Work'
 import Mywork from './pages/Mywork'
-import WhatsAppButton from './components/WhatsappButton'
+import WhatAppBtn from './components/WhatAppBtn'
+
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
         <Route path="/projects/:id" element={<Work />} />
         <Route path='/mywork' element={<Mywork/>}/>
       </Routes>
-      <WhatsAppButton/>
+      <WhatAppBtn/>
       <Footer/>
     </div>
   )

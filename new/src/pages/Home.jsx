@@ -9,9 +9,11 @@ import Boxtool from '../components/Boxtool'
 import SectionCombined from '../components/SectionCombined'
 
 
+
 const Home = () => {
   return (
     <div>
+
       <Hero/>
       {/* <Experience/> */}
       <FeaturedWork/>
