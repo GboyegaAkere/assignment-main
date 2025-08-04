@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import ceo from "../images/ceo.png";
+import ceo from "../images/profile.png";
 import Experience from "./Experience";
 
 export function Hero() {
@@ -29,8 +29,8 @@ export function Hero() {
                 viewport={{ once: true }}
               >
                 <div className="text-7xl sm:text-7xl font-bold">
-                  <p className="text-start">SAM</p>
-                  <p>CREATES</p>
+                  <p className="text-start">DEV</p>
+                  <p>GBOYE</p>
                 </div>
               </motion.div>
 
@@ -60,21 +60,12 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                <p>
-                  I'm Samkeet Mehta, a <strong>3D artist</strong>,{" "}
-                  <strong>AR creator</strong>, and{" "}
-                  <strong>graphic designer</strong> with a background in
-                  computer engineering. I specialize in{" "}
-                  <strong>brand identity</strong>,{" "}
-                  <strong>CGI marketing</strong>, and{" "}
-                  <strong>augmented reality</strong>, with experience in social
-                  media management, packaging design, and product animation.
-                  I've worked on rebranding projects, XR presentations, and AR
-                  healthcare concepts using Unity. Passionate about blending
-                  creativity with technology, I strive to craft immersive
-                  digital experiences that push the boundaries of design and
-                  storytelling.
-                </p>
+               <p>
+   I'm Oluwagboyega, a <strong>full‑stack web developer</strong> with over 3 years of experience building responsive, high‑performance websites and web applications. I specialize in the <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js), creating scalable solutions that combine clean UI/UX design with robust backend functionality.  
+My expertise covers <strong>frontend development</strong>, <strong>API integration</strong>, <strong>database management</strong>, and <strong>SEO optimization</strong> to ensure fast‑loading, search‑friendly platforms.  
+I have worked on diverse projects, from e‑commerce platforms and business dashboards to interactive portfolio sites, delivering user‑centered solutions that meet both client goals and technical standards. Passionate about technology, I aim to build innovative digital experiences that make an impact.
+
+  </p>
               </motion.div>
 
               {/* Email */}
@@ -103,7 +94,7 @@ export function Hero() {
                   </svg>
                 </div>
                 <a
-                  href="mailto:samkeetm@gmail.com"
+                  href="mailto:gakeremale@gmail.com"
                   className="text-white font-bold text-2xl sm:text-3xl mt-4"
                 >
                   EMAIL ME

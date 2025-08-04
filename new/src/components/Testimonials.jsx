@@ -2,31 +2,30 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Emily Carter",
-    role: "Head of Production at HBO",
-    text: "Wayne exceeded all our expectations. The final product was stunning, and their ability to communicate and deliver on time made the whole process smooth and enjoyable.",
-    logo: "/hbo.png"
+    name: "Adeola Johnson",
+    role: "CEO at NaijaStyle Fashion, Nigeria",
+    text: "Oluwagboyega transformed our online store into a modern, user-friendly e‑commerce platform. Sales have increased significantly, and the site runs faster than ever. His attention to mobile optimization was outstanding.",
+    logo: "/naijastyle.png"
   },
   {
-    name: "Sarah Mitchell",
-    role: "Lead UX Designer at Bose",
-    text: "Working with Wayne was a game-changer. They took our vision and transformed it into something truly remarkable. The attention to detail and creativity is unmatched.",
-    logo: "/bose.png"
+    name: "Lucas Martins",
+    role: "Lead Developer at CodeAcademia, Brazil",
+    text: "The web development tutorials from Oluwagboyega have been a huge asset to our students. His clear explanations and real‑world projects helped many learners transition from HTML basics to full React applications.",
+    logo: "/codeacademia.png"
   },
   {
-    name: "David Rodriguez",
-    role: "Senior Creative Director at Xbox",
-    text: "I've collaborated with countless designers, but Wayne stands out for their innovative approach and seamless execution. Our project was elevated beyond expectations.",
-    logo: "/xbox.png"
+    name: "Sophia Lee",
+    role: "Marketing Manager at SeoulTech Solutions, South Korea",
+    text: "We hired Oluwagboyega to build a custom business dashboard. The result was fast, intuitive, and beautifully designed. His ability to merge design thinking with technical expertise is unmatched.",
+    logo: "/seoultech.png"
   },
   {
-    name: "Jessica Parker",
-    role: "Marketing Manager at Activision",
-    text: "Wayne brought an incredible level of professionalism and creativity to our project. They understood our brand and delivered beyond what we had hoped for.",
-    logo: "/activision.png"
+    name: "David Miller",
+    role: "Founder at GreenEats Organics, United Kingdom",
+    text: "Our organic food store needed a complete website overhaul. Oluwagboyega delivered a secure, SEO‑friendly e‑commerce site with smooth checkout and payment integration. The feedback from customers has been amazing.",
+    logo: "/greeneats.png"
   }
 ];
-
 const duplicatedTestimonials = [...testimonials, ...testimonials];
 
 const Testimonials = () => {

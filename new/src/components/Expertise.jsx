@@ -2,21 +2,21 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
 const expertiseItems = [
-  {
-    title: "Branding",
+   {
+    title: "Frontend Web Development",
     description:
-      "Crafting user-centered designs that blend creativity with functionality...",
+      "Expert in creating responsive, SEO‑friendly, and visually engaging websites using HTML5, CSS3, JavaScript, and React.js. I specialize in building fast-loading, mobile-first interfaces that improve user experience and boost search engine rankings."
   },
   {
-    title: "3D Design",
+    title: "Backend Development with Node.js",
     description:
-      "Bringing ideas to life with immersive 3D models and visualizations...",
+      "Skilled in developing secure, high-performance server-side applications using Node.js and Express. I integrate RESTful APIs, manage databases like MongoDB, and deliver scalable backend solutions for businesses in Nigeria and beyond."
   },
   {
-    title: "Web Development",
+    title: "Full‑Stack MERN Development",
     description:
-      "Transforming designs into fully functional, high-performing websites...",
-  },
+      "With over 3 years of experience in the MERN stack (MongoDB, Express.js, React.js, Node.js), I deliver end‑to‑end web solutions — from UI/UX design to deployment. I build high‑performing, SEO‑optimized web applications that drive traffic and engagement."
+  }
 ];
 
 const Expertise = () => {

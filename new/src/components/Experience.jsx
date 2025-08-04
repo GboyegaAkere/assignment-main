@@ -3,50 +3,42 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    title: "AR Developer & 3D Artist Intern",
-    company: "Arexa, Mumbai",
-    date: "01 May, 2024 – 31st July, 2024",
-    points: [
-      "Development of the AR, VR, MR & CGI Projects.",
-      "Development of the 3D Models & XR experiences for clients.",
-      "Collaboratively worked with the team.",
-      "Worked closely on Asset Development.",
-    ],
-  },
-  {
-    title: "Creative Design Intern",
-    company: "Humane Space, Mumbai",
-    date: "01 Oct, 2024 – 31st December, 2024",
-    points: [
-      "Designed market-focused packaging for the brand Maadico, improving product appeal.",
-      "Created interactive 3D models for the agency’s website to enhance user engagement.",
-      "Developed impactful presentation decks for XR meetups to showcase innovative ideas.",
-    ],
-  },
-  {
-    title: "AR Developer & 3D Artist Intern",
-    company: "Arexa, Mumbai",
-    date: "01 May, 2024 – 31st July, 2024",
-    points: [
-      "Development of the AR, VR, MR & CGI Projects.",
-      "Development of the 3D Models & XR experiences for clients.",
-      "Collaboratively worked with the team.",
-      "Worked closely on Asset Development.",
-    ],
-  },
-  {
-    title: "Creative Design Intern",
-    company: "Treblel, Mumbai",
-    date: "01 Jan, 2025 – 21st February, 2025",
-    points: [
-      "Assisted in motion projects, focusing on logo typography, color theory and visual identity.",
-      "Designed posters, wallpapers, frames, and social media posts for various client brands.",
-      "Applied design principles to create visually appealing and effective marketing materials.",
-      "Collaborated with the design team to develop creative concepts aligned with client needs.",
-    ],
-  },
-];
+  title: "MERN Stack Developer Intern",
+  company: "Sabi programmers, Akure",
+  date: "01 Feb, 2023 – 30th April, 2023",
+  points: [
+    "Developed and deployed full‑stack web applications using MongoDB, Express.js, React, and Node.js.",
+    "Integrated secure user authentication with JWT and OAuth for client projects.",
+    "Optimized backend APIs, reducing response time by 40%.",
+    "Collaborated with the design team to create mobile‑first responsive interfaces.",
+  ],
+},
+{
+  title: "Frontend React Developer Tutor",
+  company: "ZurielCademy, Akure",
+  date: "01 Jun, 2023 – 31st August, 2024",
+  points: [
+    "Introduced students to the fundamentals of HTML, including semantic elements and proper structure.",
+    "Taught CSS for styling, covering layouts, Flexbox, Grid, and responsive design principles.",
+    "Guided learners through JavaScript basics, DOM manipulation, ES6+ features, and event handling.",
+    "Transitioned students into React.js, explaining components, props, state, and hooks in detail.",
+    "Led hands‑on projects where learners built complete websites starting from HTML/CSS to fully dynamic React applications.",
+  ],
+},
 
+{
+  title: "Full‑Stack Web Developer Intern",
+  company: "Fiverr, ",
+  date: "01 Oct, 2023 till date",
+  points: [
+    "Created e‑commerce platforms with product management, cart, and payment integrations using MERN stack.",
+    "Built responsive UI layouts and dashboards with Tailwind CSS and Material UI.",
+    "Set up and managed MongoDB Atlas for scalable database hosting.",
+    "Deployed applications on Vercel and Render for production environments.",
+  ],
+}
+
+];
 const Experience = () => {
   return (
     <motion.div

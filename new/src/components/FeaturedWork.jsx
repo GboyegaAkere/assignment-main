@@ -16,7 +16,7 @@ const FeaturedWork = () => {
               transition={{ duration: 0.5 }}
               className="rounded-xl border border-neutral-800 bg-[#0a0a0a] p-6 h-[100px] flex items-center"
             >
-              <h2 className="text-3xl font-bold text-white italic">FEATURED WORK</h2>
+              <h2 className="text-3xl font-bold text-white italic">MY PROJECTS</h2>
             </motion.div>
 
             {/* iPhone Project Card */}

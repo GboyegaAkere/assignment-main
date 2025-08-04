@@ -26,9 +26,11 @@ const About = () => {
         }}
       >
         <p>
-          I'm a multidisciplinary designer and developer blending 3D, motion, and interactive
-          experiences into compelling digital stories. With a background in branding, AR/VR, and creative
-          tech, I build immersive projects that push the boundaries of what's possible.
+         I’m a passionate web developer 
+         with 3 years of experience building modern, 
+         high‑performance applications using the MERN stack. 
+         I specialize in creating responsive, user‑friendly web solutions that blend functionality with great design. From developing robust back‑end systems to crafting engaging front‑end experiences, I deliver full‑stack applications that are scalable,
+        efficient, and built to solve real‑world problems.
         </p>
       </motion.div>
     </section>

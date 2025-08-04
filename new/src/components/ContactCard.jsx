@@ -34,7 +34,7 @@ const ContactCard = () => {
               id="name"
               type="text"
               placeholder="Your name"
-              defaultValue="Samkeet Mehta"
+              defaultValue="Akeremale Olwagboyega"
               className="w-full bg-neutral-800 text-white p-2 rounded-md text-sm"
             />
           </div>
@@ -47,7 +47,7 @@ const ContactCard = () => {
               id="email"
               type="email"
               placeholder="you@example.com"
-              defaultValue="samkeetm@gmail.com"
+              defaultValue="gakeremale@gmail.com"
               className="w-full bg-neutral-800 text-white p-2 rounded-md text-sm"
             />
           </div>
