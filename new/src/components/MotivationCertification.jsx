@@ -47,9 +47,9 @@ const MotivationCertification = () => {
 </div>
 
 <div>
-  <h3 className="font-semibold text-base">Coursera – MERN Stack Development</h3>
+  <h3 className="font-semibold text-base">Sabi Programmers – Ful Stack Development</h3>
   <p className="text-sm text-neutral-400 leading-relaxed">
-    Achieved certification on Coursera for full‑stack development with MongoDB, Express, React, and Node.js, proving expertise in building scalable and efficient web solutions.
+    Achieved certification in Sabi programmers acedemy for full‑stack development with MongoDB, Express, React, and Node.js, proving expertise in building scalable and efficient web solutions.
   </p>
 </div>
 
