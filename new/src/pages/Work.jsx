@@ -17,12 +17,15 @@ const Work = () => {
         <p className="text-neutral-400 mb-8">{project.subtitle}</p>
 
         {/* Main image */}
-        <img
+        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+          <img
           src={mainImage}
           alt={project.title}
           className="w-full rounded-md mb-6 transition-all duration-300"
         />
 
+        </a>
+        
         {/* Description */}
         <div className="bg-neutral-900 p-4 text-sm border border-neutral-800 rounded-md mb-8">
           <p>{project.description}</p>
