@@ -85,7 +85,7 @@ const FeaturedWork = () => {
                   />
                   <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-700 transition-opacity duration-300" />
                   <div className="absolute bottom-3 left-3 text-sm z-10">
-                    <p className="font-semibold">{project.title}</p>
+                    <p className="font-semibold ">{project.title}</p>
                     <p className="text-neutral-400 italic">{project.subtitle}</p>
                   </div>
                 </motion.div>
