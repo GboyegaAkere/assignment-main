@@ -39,9 +39,9 @@ const MotivationCertification = () => {
 </div>
 
 <div className="mb-6">
-  <h3 className="font-semibold text-base">freeCodeCamp – Frontend Libraries</h3>
+  <h3 className="font-semibold text-base">Scrimba – Frontend Libraries</h3>
   <p className="text-sm text-neutral-400 leading-relaxed">
-    Earned certification from freeCodeCamp for mastering frontend libraries including React, Redux, and Bootstrap, showcasing the ability to build modern, responsive applications.
+    Earned certification from scrimba for mastering frontend libraries including React, Redux, and Bootstrap, showcasing the ability to build modern, responsive applications.
   </p>
   <hr className="my-4 border-neutral-700"/>
 </div>

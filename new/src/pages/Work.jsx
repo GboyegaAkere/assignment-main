@@ -17,7 +17,7 @@ const Work = () => {
         <h1 className="text-2xl font-bold uppercase mb-1">{project.title}</h1>
         <p className="text-neutral-400 mb-8">{project.subtitle}</p>
 
-        {/* Main image with hover overlay */}
+        {/* Main image with hover & mobile overlay */}
         <div className="relative group w-full mb-6 rounded-md overflow-hidden">
           <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
             <img
@@ -25,7 +25,7 @@ const Work = () => {
               alt={project.title}
               className="w-full rounded-md transition-all duration-300 group-hover:brightness-50"
             />
-            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="absolute inset-0 flex items-center justify-center md:opacity-0 md:group-hover:opacity-100 opacity-100 transition-opacity duration-300">
               <span className="flex items-center gap-2 bg-white text-black text-sm font-semibold px-4 py-2 rounded shadow-lg">
                 <ExternalLink className="w-4 h-4" />
                 View Live Project
