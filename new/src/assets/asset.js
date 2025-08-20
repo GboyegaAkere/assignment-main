@@ -4,7 +4,7 @@ import c from "../images/c.webp"
 import dkoko from "../images/dkoko.png"
 import dkok2 from "../images/dkoko2.png"
 import d from "../images/d.jpg"
-import gboye from "../images/gboye.png"
+import gboyes from "../images/gboyes.png"
 
 const featuredProjects = [
   {
@@ -21,7 +21,7 @@ const featuredProjects = [
     title: "Restaurant Website",
     subtitle: "Modern dining experience",
    description: "As part of my development practice, I designed and built a modern, visually appealing website for a fictional restaurant. The goal was to challenge myself with real-world UI/UX scenarios while exploring how to present a brand's identity online. I focused on creating a clean and engaging layout that highlights signature dishes, chef specials, and important features like reservations and contact details. The project helped me experiment with responsive design, image-heavy content, and user-friendly navigation all while capturing the warm, inviting feel of a great dining experience.",
-    image: dkoko,
+    image: gboyes,
     
     // gallery: [g1, g2] // use the imports
      liveUrl: "https://gboye.netlify.app/"
@@ -31,7 +31,7 @@ const featuredProjects = [
     title: "Printing Solutions",
     subtitle: "Modern 3D layout",
     description: "Immerse yourself in the cutting-edge of real estate design with this sleek and modern website template. Crafted to elevate any real estate agency's online presence, it offers an intuitive, user-friendly platform to showcase properties in style. Whether you're dealing with residential homes, commercial spaces, or luxury estates, this template combines visually striking layouts with effortless navigation. Highlight unique property features and engage clients with sophistication, positioning your agency as a standout leader in the competitive real estate market.",
-    image: d,
+    image: dkoko,
     // gallery: [g1, g2]
   },
   {
