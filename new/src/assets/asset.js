@@ -21,7 +21,7 @@ const featuredProjects = [
     title: "Restaurant Website",
     subtitle: "Modern dining experience",
    description: "As part of my development practice, I designed and built a modern, visually appealing website for a fictional restaurant. The goal was to challenge myself with real-world UI/UX scenarios while exploring how to present a brand's identity online. I focused on creating a clean and engaging layout that highlights signature dishes, chef specials, and important features like reservations and contact details. The project helped me experiment with responsive design, image-heavy content, and user-friendly navigation all while capturing the warm, inviting feel of a great dining experience.",
-    image: gboye,
+    image: dkoko,
     
     // gallery: [g1, g2] // use the imports
      liveUrl: "https://gboye.netlify.app/"
