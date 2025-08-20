@@ -16,7 +16,9 @@ const FeaturedWork = () => {
               transition={{ duration: 0.5 }}
               className="rounded-xl border border-neutral-800 bg-[#0a0a0a] p-6 h-[100px] flex items-center"
             >
-              <h2 className="text-3xl font-bold text-white italic">MY PROJECTS</h2>
+              <h2 className="text-3xl font-bold text-white italic">
+                MY PROJECTS
+              </h2>
             </motion.div>
 
             {/* iPhone Project Card */}
@@ -27,7 +29,8 @@ const FeaturedWork = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
                   whileHover={{ scale: 1.02 }}
-                  className="relative group rounded-xl overflow-hidden border border-neutral-800 bg-neutral-900 h-[260px]"
+                  // Apply h-[375px] on mobile (default) and md:h-[260px] on medium screens and up
+                  className="relative group rounded-xl overflow-hidden border border-neutral-800 bg-neutral-900 h-[375px] md:h-[260px]"
                 >
                   <img
                     src={featuredProjects[0].image}
@@ -37,7 +40,9 @@ const FeaturedWork = () => {
                   <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-700 transition-opacity duration-300" />
                   <div className="absolute bottom-3 left-3 text-sm z-10">
                     <p className="font-semibold">{featuredProjects[0].title}</p>
-                    <p className="text-neutral-400 italic">{featuredProjects[0].subtitle}</p>
+                    <p className="text-neutral-400 italic">
+                      {featuredProjects[0].subtitle}
+                    </p>
                   </div>
                 </motion.div>
               </Link>
@@ -61,13 +66,14 @@ const FeaturedWork = () => {
                 <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-700 transition-opacity duration-300" />
                 <div className="absolute bottom-3 left-3 text-sm z-10">
                   <p className="font-semibold">{featuredProjects[1].title}</p>
-                  <p className="text-neutral-400 italic">{featuredProjects[1].subtitle}</p>
+                  <p className="text-neutral-400 italic">
+                    {featuredProjects[1].subtitle}
+                  </p>
                 </div>
               </motion.div>
             </Link>
           )}
 
-       
           <div className="flex flex-col gap-4">
             {featuredProjects.slice(2, 4).map((project, index) => (
               <Link to={`/projects/${project.slug}`} key={index}>
@@ -76,7 +82,8 @@ const FeaturedWork = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1, duration: 0.5 }}
                   whileHover={{ scale: 1.02 }}
-                  className="relative group rounded-xl overflow-hidden border border-neutral-800 bg-neutral-900 h-[180px]"
+                  // Apply h-[375px] on mobile (default) and md:h-[180px] on medium screens and up
+                  className="relative group rounded-xl overflow-hidden border border-neutral-800 bg-neutral-900 h-[375px] md:h-[180px]"
                 >
                   <img
                     src={project.image}
@@ -86,7 +93,9 @@ const FeaturedWork = () => {
                   <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-700 transition-opacity duration-300" />
                   <div className="absolute bottom-3 left-3 text-sm z-10">
                     <p className="font-semibold ">{project.title}</p>
-                    <p className="text-neutral-400 italic">{project.subtitle}</p>
+                    <p className="text-neutral-400 italic">
+                      {project.subtitle}
+                    </p>
                   </div>
                 </motion.div>
               </Link>
