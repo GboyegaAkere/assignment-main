@@ -1,20 +1,27 @@
 import { motion } from "framer-motion";
-import blender from "../images/blender.png";
+import javascript from "../images/javaa.png"
 import react from "../images/react.png";
-import photo from "../images/photo.jpg";
+import vercel from "../images/Vercel-Logo.jpg"
 import figma from "../images/figma.webp";
 import notion from "../images/notion.png";
+import reactt from "../images/reactt.png"
+import tail from "../images/tail.png"
+import node from "../images/nodeee.png"
+import express from "../images/express.png"
 
 const testimonials = [
-  { image: blender },
-  { image: react },
-  { image: photo },
+  { image: javascript },
+  { image: reactt },
+  { image: vercel },
   { image: figma },
   { image: notion },
-  { image: blender },
+  { image: javascript },
   { image: react },
   { image: figma },
-  { image: notion },
+  { image: tail },
+  { image: node },
+  { image: express },
+  
 ];
 
 const duplicatedTestimonials = [...testimonials, ...testimonials];
