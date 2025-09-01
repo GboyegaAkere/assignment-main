@@ -5,6 +5,7 @@ import dkoko from "../images/dkoko.png"
 import dkok2 from "../images/dkoko2.png"
 import d from "../images/d.jpg"
 import gboyes from "../images/gboyes.png"
+import store from "../images/store.png"
 
 const featuredProjects = [
   {
@@ -32,6 +33,7 @@ const featuredProjects = [
     subtitle: "Modern 3D layout",
     description: "Immerse yourself in the cutting-edge of real estate design with this sleek and modern website template. Crafted to elevate any real estate agency's online presence, it offers an intuitive, user-friendly platform to showcase properties in style. Whether you're dealing with residential homes, commercial spaces, or luxury estates, this template combines visually striking layouts with effortless navigation. Highlight unique property features and engage clients with sophistication, positioning your agency as a standout leader in the competitive real estate market.",
     image: dkoko,
+    liveUrl: "https://dkokogrillz.com/"
     // gallery: [g1, g2]
   },
   {
@@ -39,7 +41,8 @@ const featuredProjects = [
     title: "Framer Xplore",
     subtitle: "Free Framer Components",
     description: "Immerse yourself in the cutting-edge of real estate design with this sleek and modern website template. Crafted to elevate any real estate agency's online presence, it offers an intuitive, user-friendly platform to showcase properties in style. Whether you're dealing with residential homes, commercial spaces, or luxury estates, this template combines visually striking layouts with effortless navigation. Highlight unique property features and engage clients with sophistication, positioning your agency as a standout leader in the competitive real estate market.",
-    image: b,
+    image: store,
+    liveUrl: "https://foreverbuy.in/"
     // gallery: [g1, g2]
   }
 ];
