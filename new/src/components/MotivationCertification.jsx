@@ -14,8 +14,7 @@ const MotivationCertification = () => {
         <p className="text-sm text-neutral-300 leading-relaxed">
            Driven by a passion for building impactful digital solutions, I find motivation in solving complex problems and turning ideas into functional, user‑friendly applications. 
   Every line of code, every design choice, and every interaction is an opportunity to create something meaningful. 
-  I thrive on learning new technologies, improving my skills, and pushing the limits of what’s possible on the web. 
-  For me, each project is more than just development—it’s a chance to craft experiences that are efficient, accessible, and built to last.
+  I thrive on learning new technologies, improving my skills, and pushing the limits of what’s possible on the web.
         </p>
         <p className="mt-4 italic text-neutral-500">Oluwagboyega</p>
       </div>
@@ -33,7 +32,7 @@ const MotivationCertification = () => {
 <div className="mb-6">
   <h3 className="font-semibold text-base">Udemy – Advanced Web Development</h3>
   <p className="text-sm text-neutral-400 leading-relaxed">
-    Received a professional certificate from Udemy for completing an advanced web development course, demonstrating strong technical skills and creative problem‑solving abilities.
+    Received a professional certificate from Udemy for completing an advanced web development .
   </p>
   <hr className="my-4 border-neutral-700"/>
 </div>
@@ -41,7 +40,7 @@ const MotivationCertification = () => {
 <div className="mb-6">
   <h3 className="font-semibold text-base">Scrimba – Frontend Libraries</h3>
   <p className="text-sm text-neutral-400 leading-relaxed">
-    Earned certification from scrimba for mastering frontend libraries including React, Redux, and Bootstrap, showcasing the ability to build modern, responsive applications.
+    Earned certification from scrimba for mastering frontend applications.
   </p>
   <hr className="my-4 border-neutral-700"/>
 </div>
@@ -49,7 +48,7 @@ const MotivationCertification = () => {
 <div>
   <h3 className="font-semibold text-base">Sabi Programmers – Ful Stack Development</h3>
   <p className="text-sm text-neutral-400 leading-relaxed">
-    Achieved certification in Sabi programmers acedemy for full‑stack development with MongoDB, Express, React, and Node.js, proving expertise in building scalable and efficient web solutions.
+    Achieved certification in Sabi programmers acedemy for full‑stack development with MongoDB, Express, React, and Node.js.
   </p>
 </div>
 

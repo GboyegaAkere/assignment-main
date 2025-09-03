@@ -17,6 +17,7 @@ const expertiseItems = [
     description:
       "With over 3 years of experience in the MERN stack (MongoDB, Express.js, React.js, Node.js), I deliver end‑to‑end web solutions — from UI/UX design to deployment. I build high‑performing, SEO‑optimized web applications that drive traffic and engagement."
   }
+  
 ];
 
 const Expertise = () => {
@@ -25,7 +26,7 @@ const Expertise = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-neutral-900 rounded-xl p-6 shadow-md"
+      className="bg-neutral-900 rounded-xl p-6 shadow-md md:h-155"
     >
       <h2 className="text-3xl font-semibold mb-6 border-b border-neutral-800 inline-block">
         EXPERTISE
