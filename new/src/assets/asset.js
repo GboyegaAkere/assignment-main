@@ -6,6 +6,7 @@ import dkok2 from "../images/dkoko2.png"
 import d from "../images/d.jpg"
 import gboyes from "../images/gboyes.png"
 import store from "../images/store.png"
+import yachts from "../images/yachts.png"
 
 const featuredProjects = [
   {
@@ -29,18 +30,18 @@ const featuredProjects = [
   },
   {
     slug: "project-three",
-    title: "Printing Solutions",
-    subtitle: "Modern 3D layout",
-    description: "Immerse yourself in the cutting-edge of real estate design with this sleek and modern website template. Crafted to elevate any real estate agency's online presence, it offers an intuitive, user-friendly platform to showcase properties in style. Whether you're dealing with residential homes, commercial spaces, or luxury estates, this template combines visually striking layouts with effortless navigation. Highlight unique property features and engage clients with sophistication, positioning your agency as a standout leader in the competitive real estate market.",
-    image: dkoko,
-    liveUrl: "https://dkokogrillz.com/"
+    title: "Yachts Broker",
+    subtitle: "Yachts",
+    description: "Equiinox Yachts is a premium, modern website built for a luxury yacht company, designed to reflect sophistication, exclusivity, and seamless digital experience. The goal of the project was to create an elegant online presence that highlights the company’s high-end yacht collections, services, and brand identity through visually captivating layouts and smooth interactions.",
+    image: yachts,
+    liveUrl: "https://www.equiinoxyachts.com/"
     // gallery: [g1, g2]
   },
   {
     slug: "project-four",
-    title: "Framer Xplore",
-    subtitle: "Free Framer Components",
-    description: "Immerse yourself in the cutting-edge of real estate design with this sleek and modern website template. Crafted to elevate any real estate agency's online presence, it offers an intuitive, user-friendly platform to showcase properties in style. Whether you're dealing with residential homes, commercial spaces, or luxury estates, this template combines visually striking layouts with effortless navigation. Highlight unique property features and engage clients with sophistication, positioning your agency as a standout leader in the competitive real estate market.",
+    title: "E-commerce website",
+    subtitle: "Clothing website",
+    description: "Gboyege's is a stylish and modern e-commerce website developed for a fashion and clothing brand. The website was designed to provide users with a seamless online shopping experience — combining elegant visuals, intuitive navigation, and fast performance. The main goal was to build a platform that reflects the brand’s creativity and showcases products in a visually appealing, easy-to-browse layout.",
     image: store,
     liveUrl: "https://foreverbuy.in/"
     // gallery: [g1, g2]
