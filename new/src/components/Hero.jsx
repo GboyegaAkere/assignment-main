@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import ceo from "../images/profile.png";
+import ceo from "../images/pff.jpg";
 import Experience from "./Experience";
 
 export function Hero() {
