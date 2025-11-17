@@ -61,7 +61,7 @@ export function Hero() {
                 viewport={{ once: true }}
               >
                <p>
-   I'm Oluwagboyega, a <strong>full‑stack web developer</strong> with over 3 years of experience building responsive, high‑performance websites and web applications. I specialize in the <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js), creating scalable solutions that combine clean UI/UX design with robust backend functionality.  
+   I'm Oluwagboyega, a <strong>full‑stack web developer</strong> with hands-on experience building responsive, high‑performance websites and web applications. I specialize in the <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js), creating scalable solutions that combine clean UI/UX design with robust backend functionality.  
 My expertise covers <strong>frontend development</strong>, <strong>API integration</strong>, <strong>database management</strong>, and <strong>SEO optimization</strong> to ensure fast‑loading, search‑friendly platforms.  
 I have worked on diverse projects, from e‑commerce platforms and business dashboards to interactive portfolio sites, delivering user‑centered solutions that meet both client goals and technical standards. Passionate about technology, I aim to build innovative digital experiences that make an impact.
 
